@@ -17,7 +17,7 @@ from slugify import slugify
 from .editor.tree_editor import TreeEditor
 from .settings import ALLOW_SLUG_CHANGE, SLUG_TRANSLITERATOR
 
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 
 if sys.version_info[0] < 3:  # Remove this after dropping support of Python 2

@@ -10,7 +10,7 @@ except ImportError:
     from django.contrib.contenttypes.generic import GenericForeignKey
 from django.core.files.storage import get_storage_class
 
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 from .settings import (RELATION_MODELS, RELATIONS, THUMBNAIL_UPLOAD_PATH, THUMBNAIL_STORAGE)
 
